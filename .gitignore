@@ -1,0 +1,5 @@
+data/
+snakemake/
+.envs/
+.secret.yml
+
