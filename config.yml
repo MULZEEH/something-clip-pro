@@ -1,0 +1,14 @@
+# --- Workflow Configuration ---
+
+# If true, runs a backup rule after the workflow ends
+backup: false
+
+# If true, disables the 'other' target (standard_targets will only be basic and report)
+plane: false
+
+# If true, intermediate/junk results will not be deleted
+keep_junk: false
+
+# Others
+
+# threshold-...
