@@ -12,7 +12,20 @@ the ide ais to exploita Gaussian curbve over every single-nucleotide cross-link 
 probabily using the nurmnal kernel for the KDE
  where teta is the standard normal density function. The kernel density estimator then becomes
 
-{\displaystyle {\hat {f}}_{h}(x)={\frac {1}{n}}\sum _{i=1}^{n}{\frac {1}{h{\sqrt {2\pi }}}}\exp \left({\frac {-(x-x_{i})^{2}}{2h^{2}}}\right),}
+To visualize that equation in a Markdown (MD) file, you have two primary options: using LaTeX (which most modern Markdown viewers like GitHub, Obsidian, and VS Code support) or using an Image.
+
+Since you provided a formula for Kernel Density Estimation (KDE) using a Gaussian kernel, here is how you can render it beautifully.
+
+1. Using LaTeX (Recommended)
+Most Markdown engines use MathJax or KaTeX to render math. You can wrap the code in double dollar signs $$ for a centered, "display" block.
+
+Copy and paste this into your .md file:
+
+Markdown
+
+$$
+\hat{f}_{h}(x) = \frac{1}{n} \sum_{i=1}^{n} \frac{1}{h\sqrt{2\pi}} \exp \left( \frac{-(x-x_{i})^{2}}{2h^{2}} \right)
+$$
 
 ### TODO:
 add base environment for snake and also others for pureclip and such
