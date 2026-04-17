@@ -19,9 +19,6 @@ Since you provided a formula for Kernel Density Estimation (KDE) using a Gaussia
 1. Using LaTeX (Recommended)
 Most Markdown engines use MathJax or KaTeX to render math. You can wrap the code in double dollar signs $$ for a centered, "display" block.
 
-Copy and paste this into your .md file:
-
-Markdown
 
 $$
 \hat{f}_{h}(x) = \frac{1}{n} \sum_{i=1}^{n} \frac{1}{h\sqrt{2\pi}} \exp \left( \frac{-(x-x_{i})^{2}}{2h^{2}} \right)
