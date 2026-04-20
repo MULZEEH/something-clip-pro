@@ -1,0 +1,8 @@
+name: base-environemnt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies: 
+  - pureclip
+  - python=3.11
